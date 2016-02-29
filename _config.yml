@@ -1,29 +1,46 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: expanded # compressed # expanded
+
+# permalink and highlighter
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+# SEO settings
+title: dotX
+description: "A free Jekyll theme for download"
+keywords: "Jekyll, theme, free, download, SEO, blog, web"
+
 # Site settings
-name: John Smith
-description: "Nifty little description"
-url: ""
+url: http://nandomoreira.me
+baseurl: "/dotX"
+# baseurl: ""
 
+# Author settings
+author:
+  name      : Fernando Moreira
+  job       : Frontend Engineer
+  bio       : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
+  thumb     : /images/author.jpg
+  email     : nandomoreira.me@gmail.com
+  url       : http://nandomoreira.me
+  github    : http://github.com/nandomoreirame
+  twitter   : http://twitter.com/nandomoreirame
+  facebook  : http://facebook.com/fernando.dev
+  linkedin  : http://linkedin.com/in/nandomoreirame
 
-# Delete the lines you don't need
-email: your-email@example.domain
-github_username:  dashingcode
-twitter_username: your_twitter_username_goes_here
-medium_username:  your_medium_username_goes_here
-# If you don't have a blog page delete the next line
-blog_url: "/blog"
+# google_analytics: UA-52446115-1
+repo: http://github.com/nandomoreirame/dotX
 
-
-avatar: yes
-#avatar_img_path: "imgs/avatar.jpg""
-# You can link to your GitHub image. That way it will get updated 
-# automatically whenever you change your GitHub profile picture
-avatar_img_path: "https://avatars2.githubusercontent.com/u/17301305"
-
-
-front_img: yes
-front_img_path: "imgs/background.jpg"
-#front_img_path: "https://external.url/image.jpg"
-
-# Build settings
-markdown: kramdown
-permalink: pretty
+# comments
+disqus_shortname: "fernandomoreira"
