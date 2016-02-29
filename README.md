@@ -1,40 +1,23 @@
-# .X [![Build Status](https://travis-ci.org/nandomoreirame/dotX.svg?branch=master)](https://travis-ci.org/nandomoreirame/dotX)
+# Dekyll
 
-> Simple & Beautiful Jekyll theme
+Jekyll theme based on default Jekyll's default style. [Demo Dekyll Theme](http://www.kaklabs.com).
 
-### [Demo](http://nandomoreira.me/dotX/)
+All configuration is under `_config.yml` file, except the search. Dekyll uses Google Custom Search. To change Dekyll's default search engine, replace the code in `_includes/search.html` and `search.md` files.
 
-![dotX - free Jekyll theme](/screenshot.png)
+### Dependencies
+* jekyll 3
+* jekyll-sitemap
+* jekyll-paginate
+* jekyll-redirect-from
 
----
-
-### Start in 4 steps
-
-1. Download or clone repo `git clone git@github.com:nandomoreirame/dotX.git`
-2. Enter the folder: `cd dotX/`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `jekyll serve`
-
-Access, [localhost:4000/dotX](http://localhost:4000/dotX)
-
-### Deploy in Github pages in 2 steps
-
-1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
-2. Run `rake` or `rake publish` for build and publish on Github
-
----
-
-### Using Rake tasks
-
-* Create a new page: `rake page name="contact.md"`
-* Create a new post: `rake post title="TITLE OF THE POST"`
-
----
-
-### Copyright and license
-
-It is under [the MIT license](/LICENSE).
-
-Enjoy :yum:
-
-by [nandomoreira.me](http://nandomoreira.me)
+### Features
+* Support Jekyll 3
+* No Javascript (by default)
+* CSS Compression
+* Related articles
+* Responsive
+* Support pagination
+* Sitemap
+* Support redirection
+* Social media sharing buttons
+* Google Analytic and Disqus

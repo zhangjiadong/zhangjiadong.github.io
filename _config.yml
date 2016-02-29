@@ -5,42 +5,31 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
-source: source
-destination: _site
-sass:
-  sass_dir: _sass
-  style: expanded # compressed # expanded
-
-# permalink and highlighter
-permalink   : /:year/:title/
-markdown    : kramdown
-highlighter : pygments
-
-# SEO settings
-title: dotX
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
-
 # Site settings
-url: http://nandomoreira.me
-baseurl: "/dotX"
-# baseurl: ""
+title: Your awesome title
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
 
-# Author settings
-author:
-  name      : Fernando Moreira
-  job       : Frontend Engineer
-  bio       : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
-  thumb     : /images/author.jpg
-  email     : nandomoreira.me@gmail.com
-  url       : http://nandomoreira.me
-  github    : http://github.com/nandomoreirame
-  twitter   : http://twitter.com/nandomoreirame
-  facebook  : http://facebook.com/fernando.dev
-  linkedin  : http://linkedin.com/in/nandomoreirame
+twitter_username: jekyllrb
+github_username:  jekyll
+google_analytic_id:
+disqus_name:
 
-# google_analytics: UA-52446115-1
-repo: http://github.com/nandomoreirame/dotX
+permalink: /:categories/:title
+paginate: 5
+paginate_path: /page/:num
 
-# comments
-disqus_shortname: "fernandomoreira"
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-redirect-from
