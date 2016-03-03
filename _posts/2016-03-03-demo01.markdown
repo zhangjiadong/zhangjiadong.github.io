@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "java多线程"
+date:   2016-03-03 19:30:58 +0800
+categories: jekyll update
+---
+
+```java
+public class Hello {
+	public static void main(){
+		System.out.println("hello java");
+	}
+}
+
+```
