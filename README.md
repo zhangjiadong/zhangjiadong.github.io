@@ -1,45 +1,17 @@
-# jekyll-uno
+# Jekyll Modern Blog
 
-Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
+A Simple, Clean and responsive modern blog for jekyll.
 
-> :warning:
-  This theme requires ruby and rubygems installed
+## [Live Demo](http://inded.github.io/Jekyll_modern-blog/)
 
-### Features
+## Attributions
+Based off of this [article from Codrops](http://tympanus.net/codrops/?p=24222)
+Using Sample images from [Fancy Crave](http://fancycrave.com/)
 
-* Clean layout
-* Resposive layout
-* Pagination
-* Syntax highlighting
-* Social links
-* Tags listing page
-* Categories listing page
-* Google Analytics integration
-* Disqus integration
+## License
 
----
+Based off of this [Article on Codrops](http://tympanus.net/codrops/?p=24222)
 
-### Install and Test
+Created by Claudio Calautti for Codrops. Released under the [GNU GPL license v3](https://www.gnu.org/licenses/gpl-3.0.html).
 
-1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
-2. Enter the folder: `cd jekyll-uno/`
-3. If you don't have bundler installed: `gem install bundler`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `jekyll serve`
-
-Access via: [http://localhost:4000/jekyll-uno](http://localhost:4000/jekyll-uno)
-
----
-
-### Demo and Download
-
-[Demo](http://joshgerdes.com/jekyll-uno/)
-[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
-
-![jekyll-uno - free Jekyll theme](/screenshot.png)
-
----
-
-### Copyright and license
-
-It is under [the MIT license](/LICENSE).
+Changes being that I made it jekyll ready and smushed the CSS together.
