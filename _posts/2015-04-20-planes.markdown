@@ -1,14 +1,14 @@
 ---
-title:  "Planes are cool!"
-subtitle: "The Fly!"
-author: "Wferr"
+title:  "java编程"
+subtitle: "学习笔记"
+author: "张家东"
 avatar: "img/authors/wferr.png"
 image: "img/a.jpg"
 date:   2015-04-20 12:12:12
 ---
 
 ### java多线程
-```
+```java
 public class Hello{
 
 	public static void main(String[] args){
