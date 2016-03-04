@@ -1,0 +1,12 @@
+---
+title:  "写下我的第一个博客"
+subtitle: "路过"
+author: "张家东"
+avatar: "img/authors/wferr.png"
+image: "img/b.jpg"
+date:   2016-03-04 13:12:50
+---
+
+###markdown
+
+作业部落
