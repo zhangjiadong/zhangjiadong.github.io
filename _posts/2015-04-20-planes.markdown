@@ -1,11 +1,12 @@
 ---
 title:  "java编程"
+layout: compress
 subtitle: "学习笔记"
 author: "张家东"
 avatar: "img/authors/wferr.png"
 image: "img/a.jpg"
 date:   2015-04-20 12:12:12
----
+---	
 
 ### java多线程
 
