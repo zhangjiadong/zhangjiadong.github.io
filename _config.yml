@@ -1,19 +1,19 @@
 # Site settings
 title: 张家东
 description: 'To be a better man!'
-url: 'http://www.iwebsouls.com'
+url: 'http://zhangjiadong.github.io'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
-disqus_shortname: pylixm
+duoshuo_shortname: shadow0418
 
 encoding: utf-8
 
 author:
-  name: 'pylixm'
-  email: pylixm@gmail.com
+  name: '张家东'
+  email: zjd0418@gmail.com
   #twitter_username: joshgerdes
   #facebook_username: joshgerdes
-  github_username:  pylixm
+  github_username:  zhangjiadong
   #linkedin_username:  joshgerdes
 
 defaults:

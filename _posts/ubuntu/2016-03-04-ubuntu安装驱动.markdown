@@ -1,0 +1,22 @@
+---
+layout : post
+title : ubuntu安装驱动
+category : ubuntu
+tagline: ""
+date : 2016-03-04 17:57
+tags : [ubuntu,]
+---
+
+##ubuntu
+
+```
+public class Hello{
+	
+	public static void main(String[] args){
+		System.out.println("hello Ubuntu!");
+	}
+}
+```
+
+---
+

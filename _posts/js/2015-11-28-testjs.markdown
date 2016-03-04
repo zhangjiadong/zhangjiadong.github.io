@@ -1,15 +1,22 @@
 ---
 layout : post
-title : javascript 使用记录
+title : javascript操作字符串
 category : js
 tagline: ""
-date : 2015-11-27 13:26
+date : 2015-11-28 13:26
 tags : [js,]
 ---
 
 
 
-test 文章
+```
+public class Hello{
+	
+	public static void main(String[] args){
+		System.out.println("hello world!!");
+	}
+}
+```
 
 ---
 
