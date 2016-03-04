@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 <article class="post-container post-container--single">
   <header class="post-header">
@@ -8,7 +9,13 @@ layout: default
     </div>
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
-
+  {% if page.old_url%}
+  <ul>
+    <li>
+      原文出处：<a href="{{ page.old_url }}">{{ page.old_url }}</a>
+    </li>
+  </ul>
+  {% endif %}
   <section class="post">
     {{ content }}
   </section>

@@ -1,5 +1,6 @@
 ---
 layout: categories
-title: Categories
+title: 分类
+#group: navigation
 permalink: /categories/
 ---

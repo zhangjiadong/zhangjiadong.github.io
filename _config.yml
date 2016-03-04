@@ -1,18 +1,20 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno/'
+title: PyLixm'Wiki
+description: 'To be a better man!'
+url: 'http://www.iwebsouls.com'
+baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: pylixm
+
+encoding: utf-8
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'pylixm'
+  email: pylixm@gmail.com
+  #twitter_username: joshgerdes
+  #facebook_username: joshgerdes
+  github_username:  pylixm
+  #linkedin_username:  joshgerdes
 
 defaults:
   -
@@ -25,7 +27,7 @@ defaults:
 # Build settings
 destination: _site
 paginate: 10
-permalink: /:year/:title/
+permalink: /:year/:month/:day/:title/
 markdown: kramdown
 highlighter: rouge
 
@@ -35,5 +37,6 @@ kramdown:
   # do not replace newlines by <br>s
   hard_wrap: false
 
-gems: ['jekyll-paginate']
+gems: [jekyll-paginate]
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+
