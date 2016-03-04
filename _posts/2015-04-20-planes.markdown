@@ -1,6 +1,5 @@
 ---
 title:  "java编程"
-layout: post
 subtitle: "学习笔记"
 author: "张家东"
 avatar: "img/authors/wferr.png"
