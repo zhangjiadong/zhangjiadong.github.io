@@ -1,6 +1,6 @@
 # Site settings
 title: 张家东
-description: 'Life is short,I use java!'
+description: 'Life is short,I use Java!'
 url: 'http://zhangjiadong.github.io'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
