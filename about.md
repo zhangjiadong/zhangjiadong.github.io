@@ -10,7 +10,7 @@ comments: true
 ## 关于作者 
 ---
 
->Life is short, i use Java！
+>Life is short, I use Java！
 
 
 
