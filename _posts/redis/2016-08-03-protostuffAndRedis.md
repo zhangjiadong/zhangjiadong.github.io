@@ -23,7 +23,7 @@ Protostuff是一个开源的、基于Java语言的序列化库，它内建支持
 
 #### 三、Maven项目,引入redis和protostuff依赖
 
-```
+```xml
 	<!--redis客户端:Jedis-->
         <dependency>
             <groupId>redis.clients</groupId>
@@ -48,7 +48,7 @@ Protostuff是一个开源的、基于Java语言的序列化库，它内建支持
 ##### 1、RedisDao.java code
 
 
-```
+```java
 public class RedisDao {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
