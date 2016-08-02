@@ -1,9 +1,9 @@
 ---
 layout : post
-title : java设计模式之装饰者模式
+title : <h4 style='color:#B9301C'>java设计模式之装饰者模式</h4>
 category : 设计模式
 tagline: ""
-date : 2016-03-06
+date : 2016-05-06
 tags : [设计模式]
 ---
 

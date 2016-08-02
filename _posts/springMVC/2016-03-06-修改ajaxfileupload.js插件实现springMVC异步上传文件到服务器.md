@@ -1,6 +1,6 @@
 ---
 layout : post
-title : ajaxfileupload.js异步上传多个文件到服务器
+title : <h4 style='color:#B9301C'>ajaxfileupload.js异步上传多个文件到服务器</h4>
 category : springMVC
 tagline: ""
 date : 2016-03-06
