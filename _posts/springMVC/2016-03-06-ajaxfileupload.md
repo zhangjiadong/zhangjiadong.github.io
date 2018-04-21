@@ -39,32 +39,32 @@ ajaxfileupload.js是一个轻量级的插件，可轻松实现文件上传。
 未修改之前的js代码
 
 ```javascript
-var oldElement = jQuery('#' + fileElementId);  
-var newElement = jQuery(oldElement).clone();  
-jQuery(oldElement).attr('id', fileId);  
-jQuery(oldElement).before(newElement);  
-jQuery(oldElement).appendTo(form);  
+var oldElement = jQuery('#' + fileElementId);
+var newElement = jQuery(oldElement).clone();
+jQuery(oldElement).attr('id', fileId);
+jQuery(oldElement).before(newElement);
+jQuery(oldElement).appendTo(form);
 ```
 很容易看出，这个就是把id为什么的input加到from里去，那么要实现多个文件上传，就改成下面的样子
 
 ```javascript
-if(typeof(fileElementId) == 'string'){  
-    fileElementId = [fileElementId];  
-}  
-for(var i in fileElementId){  
-    var oldElement = jQuery('#' + fileElementId[i]);  
-    var newElement = jQuery(oldElement).clone();  
-    jQuery(oldElement).attr('id', fileId);  
-    jQuery(oldElement).before(newElement);  
-    jQuery(oldElement).appendTo(form);  
-}  
+if(typeof(fileElementId) == 'string'){
+    fileElementId = [fileElementId];
+}
+for(var i in fileElementId){
+    var oldElement = jQuery('#' + fileElementId[i]);
+    var newElement = jQuery(oldElement).clone();
+    jQuery(oldElement).attr('id', fileId);
+    jQuery(oldElement).before(newElement);
+    jQuery(oldElement).appendTo(form);
+}
 ```
 这样改之后，初始化的代码就要这么写：
 
 ```javascript
-$.ajaxFileUpload({  
-    url:'/ajaxRequest',  
-    fileElementId:['id1','id2']//原先是fileElementId:’id’ 只能上传一个  
+$.ajaxFileUpload({
+    url:'/ajaxRequest',
+    fileElementId:['id1','id2']//原先是fileElementId:’id’ 只能上传一个
 });
 ```
 ---------------
