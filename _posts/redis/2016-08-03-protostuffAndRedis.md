@@ -1,6 +1,6 @@
 ---
 layout : post
-title :   <h4 style='color:#B9301C'>Protostuff序列化实现对象在redis中缓存</h4>
+title :   Protostuff序列化实现对象在redis中缓存
 category : redis
 tagline: ""
 date : 2016-08-03
@@ -61,7 +61,7 @@ public class RedisDao {
     }
     //自定义schema
     private RuntimeSchema<Product> schema = RuntimeSchema.createFrom(Product.class);
-    
+
     /**
      * 从redis缓存中查出序列化的对象，并反序列化出来
      *
@@ -190,6 +190,3 @@ public class RedisDaoTest {
 项目代码:[http://git.oschina.net/zhangjiadong/RedisTest](http://git.oschina.net/zhangjiadong/RedisTest)
 
 -------
-
-
-

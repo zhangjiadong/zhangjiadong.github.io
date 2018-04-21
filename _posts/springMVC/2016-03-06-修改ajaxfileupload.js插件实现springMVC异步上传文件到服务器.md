@@ -1,6 +1,6 @@
 ---
 layout : post
-title : <h4 style='color:#B9301C'>ajaxfileupload.js异步上传多个文件到服务器</h4>
+title : ajaxfileupload.js异步上传多个文件到服务器
 category : springMVC
 tagline: ""
 date : 2016-03-06
@@ -173,8 +173,7 @@ public class FileUploadController {
 ###### 7、[demo项目源码](http://git.oschina.net/zhangjiadong/Ajaxfileupload)
 
 ---------
-**你是你梦想路上唯一的高墙，越过去，全世界都能看到你的光亮。** 
+**你是你梦想路上唯一的高墙，越过去，全世界都能看到你的光亮。**
 -----------<small>夜空中最亮的星</small>
 
 ------------
-

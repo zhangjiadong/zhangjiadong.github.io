@@ -1,6 +1,6 @@
 ---
 layout : post
-title : <h4 style='color:#B9301C'>java设计模式之装饰者模式</h4>
+title : java设计模式之装饰者模式
 category : 设计模式
 tagline: ""
 date : 2016-05-06
@@ -17,7 +17,7 @@ tags : [设计模式]
 **二、装饰者模式UML结构图**
 
 ![Java And Unicode](/images/decorated.jpg)
-  
+
 
 **Component**:抽象构件。是定义一个对象接口，可以给这些对象动态地添加职责。
 **ConcreteComponent**:具体构件。是定义了一个具体的对象，也可以给这个对象添加一些职责
@@ -143,4 +143,3 @@ public class DecoratedWindowTest {
 }
 
 ```
-
