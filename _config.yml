@@ -1,5 +1,5 @@
 # Site settings
-title: 张家东
+title: Shadow
 description: 'Life is short,I use Java!'
 url: 'http://zhangjiadong.github.io'
 baseurl: '/'
@@ -9,7 +9,7 @@ duoshuo_shortname: shadow0418
 encoding: utf-8
 
 author:
-  name: '张家东'
+  name: 'Shadow'
   email: zjd0418@gmail.com
   #twitter_username: joshgerdes
   #facebook_username: joshgerdes
@@ -39,4 +39,3 @@ kramdown:
 
 gems: [jekyll-paginate]
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
-
