@@ -99,17 +99,23 @@ public class OperationFactory {
   
   public static Operation creareOperation(String operation) {
     Operation oper = null;
-    if ("+".equals(operation)) {
-      oper = new OperationAdd();
-    }
-    if ("-".equals(operation)) {
-      oper = new OperationSub();
-    }
-    if ("*".equals(operation)) {
-      oper = new OperationMul();
-    }
-    if ("/".equals(operation)) {
-      oper = new OperationDiv();
+    switch (operation) {
+      case "+": {
+        oper = new OperationAdd();
+        break;
+      }
+      case "-": {
+        oper = new OperationSub();
+        break;
+      }
+      case "*": {
+        oper = new OperationMul();
+        break;
+      }
+      case "/": {
+        oper = new OperationDiv();
+        break;
+      }
     }
     return oper;
   }
