@@ -3,7 +3,7 @@ layout : post
 title : 简单工厂模式
 category : 设计模式
 tagline: ""
-date : 2018-04-25
+date : 2016-06-25
 tags : [设计模式]
 ---
 

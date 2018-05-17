@@ -1,6 +1,6 @@
 ---
 layout : post
-title : java设计模式之装饰者模式
+title : 装饰者模式
 category : 设计模式
 tagline: ""
 date : 2016-05-06
