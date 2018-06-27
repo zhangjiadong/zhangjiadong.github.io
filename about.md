@@ -16,8 +16,9 @@ comments: true
 
 ---
 
-> 无数个孤独奋战的黎明 ， 必将使我们的世界大大改变！<br/>
-<small>2016-03-06 上海</small>
+> 生命是一个将美好打碎再慢慢重建的过程，只有经历过种种浮华才能领悟到平淡中的幸福，只有经历过心灵的躁动才能慢慢沉淀为生活中的宁静。一份好心情，才是人生唯一不能被剥夺的财富。
+<br/>
+
 
 
 
@@ -38,15 +39,5 @@ comments: true
 
 * [GitHub](https://github.com/zhangjiadong)
 
-* [Git@CSDN](https://code.csdn.net/u010286751)
 
-
-
-
----
-<!--音乐框-->
-<!-- <embed src="http://www.xiami.com/widget/0_1774019470/singlePlayer.swf?sid=347230&type=2&auto=1&width=320&height=66" width="340" height="86"  allowNetworking="all"/> -->
-
-<embed src="http://www.xiami.com/widget/0_1774019470/singlePlayer.swf" type="application/x-shockwave-flash" width="257" height="33" wmode="transparent"/>
----
 
