@@ -7,6 +7,7 @@ description: "聊聊java技术"
 keyword: ""
 url: "http://www.shadow123.net"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+cdn-base-url: https://blog-img.fanhai-cloud.com # 七牛cdn
 
 
 
@@ -82,10 +83,7 @@ featured-condition-size: 0              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "Shadow Blog",
+        title: "My Blog",
         href: "http://shadow123.net"
-    },{
-        title: "Nothing",
-        href: "#"
     }
 ]
