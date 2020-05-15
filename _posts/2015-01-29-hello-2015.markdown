@@ -4,7 +4,7 @@ title:      "我的新博客主题"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2015-01-29 12:00:00
 author:     "Shadow"
-header-img: "img/post-bg-2015.jpg"
+header-img: "post-bg-2015.jpg"
 tags:
     - docker
 ---
