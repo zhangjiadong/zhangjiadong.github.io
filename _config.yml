@@ -1,7 +1,7 @@
 # Site settings
-title: 张家东的博客
-SEOTitle: 张家东的博客
-header-img: img/home-bg.jpg
+title: 余生时光
+SEOTitle: 余生时光
+header-img: https://blog-img.fanhai-cloud.com/home-bg.jpg
 email: zjd0418@gmail.com
 description: "聊聊java技术"
 keyword: ""
@@ -50,26 +50,26 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: huxblog
+duoshuo_username: shadow
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 
 
-# Analytics settings
+# Analytics settings  暂时停掉了
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+ba_track_id: test
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_track_id: test            # Format: UA-xxxxxx-xx
+ga_domain: shadow123.net
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "编程、旅游、写作。"
-sidebar-avatar: /img/avatar-shadow.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://blog-img.fanhai-cloud.com/avatar-shadow.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
